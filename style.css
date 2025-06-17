@@ -58,7 +58,7 @@ h1, h2, h3 {
 
 @media (max-width: 991.98px) {
   .navbar-brand img {
-    height: 42px;
+    height: 100px;
   }
 
   .navbar-nav .nav-link {
