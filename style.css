@@ -9,7 +9,6 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #2d2d2f;
-  padding-top: 90px; /* compensação do header fixo */
 }
 
 h1, h2, h3 {
@@ -42,8 +41,8 @@ h1, h2, h3 {
 /* ========================
    HEADER (Bootstrap)
 ======================== */
-.navbar {
-  height: auto; /* Permite que a altura se ajuste dinamicamente */
+/* .navbar {
+  height: auto;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -51,7 +50,7 @@ h1, h2, h3 {
 }
 
 .navbar-brand img {
-  height: 100px; /* Ideal para responsivo */
+  height: 100px;
   max-height: 100%;
   max-width: 250px;
   object-fit: contain;
@@ -87,7 +86,7 @@ h1, h2, h3 {
 .navbar-toggler {
   border: none;
   outline: none;
-}
+} */
 
 .navbar-toggler-icon {
   width: 1.5rem;
