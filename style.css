@@ -53,6 +53,7 @@ h1, h2, h3 {
 .navbar-brand img {
   height: 100px; /* Ideal para responsivo */
   max-height: 100%;
+  max-width: 250px;
   object-fit: contain;
 }
 
@@ -110,7 +111,6 @@ h1, h2, h3 {
 
 .hero-full::before {
   content: "";
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.4) 80%);
   position: absolute;
   top: 0;
   left: 0;
