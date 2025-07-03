@@ -20,6 +20,14 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+.seguro-card {
+  height: 100%;
+}
+.btn {
+  width: 100%;
+}
+
+
 /* ========================
    BOTÕES
 ======================== */
